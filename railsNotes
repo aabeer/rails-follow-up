@@ -1,0 +1,22 @@
+==Git
+
+git config --global user.name "lori"
+git config --global user.email "j0nky.puff@gmail.com"
+
+git init
+git add .
+git commit -m "Initialize repository"
+
+git status
+git checkout -f (Overwrite to the previous state)
+git remote add origin http://github.com/<username>/<project>.git
+git push -u origin master
+
+git checkout -b modify-README (Create a branch named "modify-R..")
+git branch (See branches)
+git mv README.rdoc README.md
+
+git commit -a -m "Improved readme file"
+git checkout master (change branch to master)
+git merge modify-README (after we've changed branch we can merge)
+git branch -d <branch> (delete any branch)
