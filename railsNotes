@@ -20,3 +20,4 @@ git commit -a -m "Improved readme file"
 git checkout master (change branch to master)
 git merge modify-README (after we've changed branch we can merge)
 git branch -d <branch> (delete any branch)
+git branch -D <branch> (Unlike the -d flag, the -D flag will delete the branch even though we haven’t merged in the changes.)
